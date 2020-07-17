@@ -64,6 +64,15 @@ public class Conjunto {
         a.removeAll(b);
         return a;
     }
+    public SortedSet igualdad(SortedSet a, SortedSet b){
+        a.contains(b);
+        return a;
+    }
 
+    public SortedSet complemento(SortedSet a, SortedSet b){
+        //Siendo b un conjunto que pertenece a el conjunto universal a
+        a.removeAll(b);
+        return a;
+    }
             
 }
