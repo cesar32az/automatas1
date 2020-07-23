@@ -10,13 +10,15 @@ import java.util.regex.Pattern;
 /**
  *
  * @author julio
- */
+ * EL EJERCICIO SE ENCUENTRA MAS ABAJO
+ */ 
 public class expresionesRegulares {
 
     /**
      * @param args the command line arguments
      */
     public static void main(final String[] args) {
+        //EJEMPLO DE LA CLASE
         // TODO code application logic here
         System.out.println("hola mundo");
         // conjunto de numeros del 1 al 5

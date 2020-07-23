@@ -33,14 +33,14 @@ public class expresionesRegulares {
         Patron1 = ".*abc.*";
 
          //2
-        Patron2 = "([abc]*[^bc])*";
+        Patron2 = "([abc]*[^bc][abc]*)*";
 
          //3
         
         Patron3 = "^2[012]*[1]$";
 
          //4
-        Patron4 = "([aa][ab][ba][bb]){2}*";
+        Patron4 = "(([aa][ab][ba][bb]){2})*";
 
          //5
         /**
@@ -49,7 +49,7 @@ public class expresionesRegulares {
          * ambos son lenguajes regulares, por lo que su concatenacion tambien es un lenguaje regular
          */
         //el patron quedaria asi
-        Patron5 = "^a[ab]*";
+        Patron5 = "^[a][ab]*";
 
 
          //Cadenas
@@ -61,7 +61,7 @@ public class expresionesRegulares {
         cadena1 = "ksdabclas";
         cadena2 = "";
         cadena3 = "20110201";
-        cadena4 = "abaabacbabcabac";
+        cadena4 = "abbaccbcbaba";
 
         //Tester
 
