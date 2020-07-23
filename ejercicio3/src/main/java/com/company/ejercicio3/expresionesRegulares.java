@@ -33,14 +33,14 @@ public class expresionesRegulares {
         Patron1 = ".*abc.*";
 
          //2
-        Patron2 = "[abc]*+[b+c]+[abc]*";
+        Patron2 = "([abc]*[^bc])*";
 
          //3
         
         Patron3 = "^2[012]*[1]$";
 
          //4
-        Patron4 = "([aa][ab][ba][bb])*";
+        Patron4 = "([aa][ab][ba][bb]){2}*";
 
          //5
         /**
@@ -58,15 +58,15 @@ public class expresionesRegulares {
         String cadena3;
         String cadena4;
 
-        cadena1 = "";
+        cadena1 = "ksdabclas";
         cadena2 = "";
         cadena3 = "20110201";
-        cadena4 = "";
-        
+        cadena4 = "abaabacbabcabac";
+
         //Tester
 
-        Pattern pat = Pattern.compile(Patron3);  //el patron 
-        Matcher mat = pat.matcher(cadena1);
+        Pattern pat = Pattern.compile(Patron2);  //el patron 
+        Matcher mat = pat.matcher(cadena2);
         if(mat.find()){
             System.out.println("Si cumple con la expresion");
         }else{
