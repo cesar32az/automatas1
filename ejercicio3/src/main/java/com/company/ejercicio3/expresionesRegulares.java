@@ -30,7 +30,7 @@ public class expresionesRegulares {
 
 
          //1
-        Patron1 = ".*abc.*";
+        Patron1 = "";
 
          //2
         Patron2 = "([abc]*[^bc][abc]*)*";
