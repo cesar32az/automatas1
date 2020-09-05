@@ -1,0 +1,10 @@
+https://github.com/cesar32az/automatas1
+
+
+wilson aguilar    algoritmo 
+
+julio rodriguez   algoritmo y graficar con graphviz
+
+angel sacbaja    lectura y escritura del afd en archivo txt
+
+dixon nuñez     grafica y algoritmo
